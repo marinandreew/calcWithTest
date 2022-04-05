@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "WzywDixnL5jQUTJF4g5bOC7pqRwszx/GiBP535KyW7frQQs+qVrClnB4+hoetohU8B3iXQwUM08P8VpaIdFfzw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Marin Andreev\\Downloads\\Calculator-main\\Calculator-main\\CalculatorGIT\\CalculatorGIT.Tests\\CalculatorGIT.Tests.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project CalculatorGIT is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project CalculatorGIT supports: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "CalculatorGIT",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

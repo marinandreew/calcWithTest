@@ -1,0 +1,103 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CalculatorGIT/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/CalculatorGIT.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CalculatorGIT.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CalculatorGIT/1.0.0": {
+      "type": "project",
+      "path": "../CalculatorGIT/CalculatorGIT.csproj",
+      "msbuildProject": "../CalculatorGIT/CalculatorGIT.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "CalculatorGIT >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Marin Andreev\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Marin Andreev\\Downloads\\Calculator-main\\Calculator-main\\CalculatorGIT\\CalculatorGIT.Tests\\CalculatorGIT.Tests.csproj",
+      "projectName": "CalculatorGIT.Tests",
+      "projectPath": "C:\\Users\\Marin Andreev\\Downloads\\Calculator-main\\Calculator-main\\CalculatorGIT\\CalculatorGIT.Tests\\CalculatorGIT.Tests.csproj",
+      "packagesPath": "C:\\Users\\Marin Andreev\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Marin Andreev\\Downloads\\Calculator-main\\Calculator-main\\CalculatorGIT\\CalculatorGIT.Tests\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Marin Andreev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\Marin Andreev\\Downloads\\Calculator-main\\Calculator-main\\CalculatorGIT\\CalculatorGIT\\CalculatorGIT.csproj": {
+              "projectPath": "C:\\Users\\Marin Andreev\\Downloads\\Calculator-main\\Calculator-main\\CalculatorGIT\\CalculatorGIT\\CalculatorGIT.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project CalculatorGIT is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project CalculatorGIT supports: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "CalculatorGIT",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
